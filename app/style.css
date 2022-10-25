@@ -2,13 +2,15 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
+    height:100%;
     font-family: sans-serif;
     background-color: rgba(250, 250, 250)
   }
   
   .container{
 	width:600px;
-	height:500px;
+  min-height:100%;
+  position:relative;
 	margin:0 auto;
 	padding:0 auto;
 }
@@ -16,6 +18,22 @@ body {
 nav{
     background-color: #0098CC;
     height:70px;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  background-color: #014b64;
+  width:100%;
+  height:150px;   /* Height of the footer */
+}
+
+.leftfooter{
+	position: absolute;
+    left: 115px;
+    top:10px;
+    color:#5c9eb5;
+    font-size:11px;
 }
 
 .left{
