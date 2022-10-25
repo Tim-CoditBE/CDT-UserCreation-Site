@@ -12,7 +12,7 @@ function showWelcomeMessage(username) {
     welcomeDiv.innerHTML = `Welcome ${username}`;
     signInButton.setAttribute("onclick", "signOut();");
     signInButton.setAttribute('class', "btn btn-success");
-    signInButton.innerHTML = "<style: color:#0098CC>" + "Sign Out" + "</style>";
+    signInButton.innerHTML = "<span style='color:#0098CC'>Sign Out</span>";
 }
 
 function updateUI(data, endpoint) {
