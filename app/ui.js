@@ -11,7 +11,7 @@ function showWelcomeMessage(username) {
     cardDiv.style.display = 'initial';
     welcomeDiv.innerHTML = `Welcome ${username}`;
     signInButton.setAttribute("onclick", "signOut();");
-    signInButton.setAttribute('class', "btn btn-success");
+    signInButton.setAttribute('class', "log");
     signInButton.innerHTML = "<span style='color:#0098CC'>Sign Out</span>";
 }
 
