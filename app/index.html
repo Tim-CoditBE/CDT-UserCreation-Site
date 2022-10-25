@@ -18,16 +18,18 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="/">Codit Usercreation</a>
-    <div class="btn-group ml-auto dropleft">
+  <nav>
+    <div class="logo"></div>
+    <h1 class="left">Usercreation</h1>
+    <div class="right">
       <button type="button" id="SignIn" class="log" onclick="signIn()">
         Sign In
       </button>
     </div>
   </nav>
+  <div class="container">
   <br>
-  <h5 class="card-header text-center">Vanilla JavaScript SPA calling MS Graph API with MSAL.js</h5>
+  <h5 class="card-header text-center">Welcome to the Codit Onboarding / Offboarding platform</h5>
   <br>
   <div class="row" style="margin:auto">
     <div id="card-div" class="col-md-3" style="display:none">
@@ -78,6 +80,7 @@
   <!-- uncomment the above line and comment the line below if you would like to use the redirect flow -->
   <script type="text/javascript" src="./authPopup.js"></script>
   <script type="text/javascript" src="./graph.js"></script>
+</div>
 </body>
 
 </html>
