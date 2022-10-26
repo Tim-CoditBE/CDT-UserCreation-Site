@@ -3,12 +3,12 @@
     "routes": [
       {
         "route": "/onboarding",
-        "allowedRoles": ["authenticated"],
+        "allowedRoles": ["anonymous"],
         "rewrite": "/onboarding.html"
       },
       {
         "route": "/offboarding",
-        "allowedRoles": ["authenticated"],
+        "allowedRoles": ["anonymous"],
         "rewrite": "/offboarding.html"
       },
       {
