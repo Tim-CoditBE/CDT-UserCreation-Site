@@ -44,6 +44,17 @@ body {
   background-color: whitesmoke;
 }
 
+.mainonboarding{
+  position:relative;
+  top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width:650px;
+  Height:570px;
+  background-color: whitesmoke;
+}
+
 
 footer {
   position:absolute;
@@ -134,7 +145,44 @@ line-height: 20px;
     border: 0px solid #014b64;
     font-family: Radikal;
   }
+
+  .onboardinglog {
+    position: absolute;
+    color:white;
+    background-color:#0098CC;
+    border: 0px solid #014b64;
+    font-family: Radikal;
+    top:100px;
+    left:70px;
+    padding:10px 25px 10px 25px;
+    border-radius: 4px;
+  }
+
+  .offboardinglog {
+    position: absolute;
+    color:white;
+    background-color:#0098CC;
+    border: 0px solid #014b64;
+    font-family: Radikal;
+    top:100px;
+    right:70px;
+    padding:10px 25px 10px 20px;
+    border-radius: 4px;
+
+  }
   
+  .onboardinglog:hover {
+    color: white;
+    box-shadow: 0 0 10px #014b64;
+    background-color: #014b64;
+  }
+
+  .offboardinglog:hover {
+    color: white;
+    box-shadow: 0 0 10px #014b64;
+    background-color: #014b64;
+  }
+
   button:hover {
     color: white;
     box-shadow: 0 0 10px #014b64;
