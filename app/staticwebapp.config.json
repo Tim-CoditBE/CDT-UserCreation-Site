@@ -2,8 +2,14 @@
     "trailingSlash": "auto",
     "routes": [
       {
-        "route": "/*",
-        "allowedRoles": ["authenticated"]
+        "route": "/onboarding",
+        "allowedRoles": ["authenticated"],
+        "rewrite": "/onboarding.html"
+      },
+      {
+        "route": "/offboarding",
+        "allowedRoles": ["authenticated"],
+        "rewrite": "/offboarding.html"
       },
       {
         "route": "/login",
