@@ -24,10 +24,10 @@
   <div id="card-divmain" class="main">  
     <div class="onboarding"></div>
     <p class="maintext">
-      <b style="font-size: 14px;">Welcome on the usercreation page of Codit</b>
+      <b style="font-size: 18px;">Welcome to Codit Usercreation!</b>
       <br>
       <br>
-      You are at the right place to onboard or offboard a user! 
+      This platform is used for onboarding or offboarding a Codit user.
       <br>
 
       Please sign in with your Codit credentials
@@ -38,16 +38,11 @@
     </button>
     <br></div>
   <div class="row" style="margin:auto">
-    <div id="card-div" style="display:none">
+    <div id="card-div" class="mainloggedin" style="display:none">
       <div class="card text-center">
-        <div class="card-body">
-          <h5 id="WelcomeMessage">Please sign-in to see your profile and read your mails</h5>
-          <div id="profile-div"></div>
-          <br>
-          <br>
-          <button>Onboarding</button>
-          <button>Offboarding</button>
-        </div>
+        <button type="button" id="SignOut" class="log" onclick="signOut()">
+          Sign Out
+        </button>
       </div>
     </div>
     <br>
@@ -84,12 +79,8 @@
   <!-- uncomment the above line and comment the line below if you would like to use the redirect flow -->
   <script type="text/javascript" src="./authPopup.js"></script>
   <script type="text/javascript" src="./graph.js"></script>
+
 </div>
-
-<footer>
-  <p class="leftfooter">Created by Tim Laurent | Codit 2022</p>
-</footer>
-
 </body>
 
 </html>
