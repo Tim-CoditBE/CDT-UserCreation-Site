@@ -4,7 +4,7 @@ body {
     padding: 0;
     height:100%;
     font-family: sans-serif;
-    background-color: rgba(250, 250, 250)
+    background-color: #0098CC;
   }
   
   .container{
@@ -20,36 +20,58 @@ nav{
     height:70px;
 }
 
+.main{
+  position:relative;
+  top:15px;
+	margin:0 auto;
+	padding:0 auto;
+  border-radius: 10px;
+  width:400px;
+  Height:500px;
+  background-color: whitesmoke;
+}
+
+
 footer {
   position:absolute;
+  text-align: center;
   bottom:0;
   background-color: #014b64;
+  color:#5c9eb5;
+    font-size:11px;
   width:100%;
   height:150px;   /* Height of the footer */
 }
 
-.leftfooter{
-	position: absolute;
-    left: 115px;
-    top:10px;
-    color:#5c9eb5;
-    font-size:11px;
+.onboarding{
+  position: absolute;
+	left:70px;
+  top:20px;
+  background-image:url("img/onboarding.png");
+  background-size: 250px;
+  width: 250px;
+  height:250px;
 }
 
-.left{
-	position: absolute;
-    left: 115px;
-    top:2px;
-    color:white;
+.maintext{
+position: absolute;
+top:290px;
+left:50px;
+width:300px;
+font-size: 12px;
+text-align: Center;
+line-height: 20px;
 }
 
 .logo{
-	position: absolute;
-    left: 10px;
-    top:10px;
-    background-image:url("img/logo.png");
-    width: 100px;
-    height:50px;
+  position:relative;
+	margin:0 auto;
+	padding:0 auto;
+  top:35px;
+  left:-10px;
+  background-image:url("img/logo2.png");
+  width: 300px;
+  height:100px;
 }
 
 .right{
@@ -73,11 +95,12 @@ footer {
   }
   
   button {
+    position: absolute;
     cursor: pointer;
     border: 0;
     border-radius: 4px;
     font-weight: 600;
-    margin: 0 10px;
+    margin: 430px 100px;
     width: 200px;
     padding: 10px 0;
     /*box-shadow: 0 0 20px #0098CC;*/
@@ -86,8 +109,8 @@ footer {
   }
   
   .log {
-    color: #0098CC;
-    background-color: rgba(255, 255, 255, 1);
+    color:white;
+    background-color:#0098CC;
     border: 0px solid #014b64;
   }
   
